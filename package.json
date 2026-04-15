@@ -1,0 +1,35 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "This project is a fully functional implementation of the classic Battleship game built using modern JavaScript principles. The application focuses on clean architecture, modular design, and test-driven development, separating game logic from the user interface.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maureenko/battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maureenko/battleship/issues"
+  },
+  "homepage": "https://github.com/Maureenko/battleship#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "jest": "^30.3.0"
+  }
+}
